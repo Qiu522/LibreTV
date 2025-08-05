@@ -134,6 +134,11 @@ const API_SITES = {
         name: 'CK资源',
         adult: true
      },
+    swzy: {
+      api: 'https://siwazyw.tv/api.php/provide/vod',
+      name: '丝袜资源',
+      detail: 'https://siwazyw.tv'
+    }
 };
 
 // 定义合并方法
