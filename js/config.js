@@ -27,6 +27,11 @@ const API_SITES = {
         name: '电影天堂资源',
         detail: 'http://caiji.dyttzyapi.com', 
     },
+    mtzy: {
+      api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
+      name: '茅台资源',
+      detail: 'https://caiji.maotaizy.cc'
+    },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
@@ -119,6 +124,16 @@ const API_SITES = {
         name: '空内容测试源',
         adult: true
     },
+    lsb: {
+         api: 'https://apilsbzy1.com/api.php/provide/vod',
+         name: 'lsb资源',
+         adult: true
+     },
+    ckzy: {
+        api: 'https://www.ckzy1.com/api.php/provide/vod',
+        name: 'CK资源',
+        adult: true
+     },
 };
 
 // 定义合并方法
